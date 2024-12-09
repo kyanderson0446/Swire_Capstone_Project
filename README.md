@@ -53,6 +53,7 @@ The dataset contains various features with significant missing data, as 80% of t
 ## Modeling
 
 ### Maintenane Date Prediction
+### Random Forest
 This model looked at each equipment for each equipment and predicted its next maintenance date
 The goal was to achieve an MAE within 5 days, this was achieved
 
@@ -68,6 +69,7 @@ The goal was to achieve an MAE within 5 days, this was achieved
 ---
 
 ### Time Series Forecasting:
+#### XGboost
 
 ![image](https://github.com/user-attachments/assets/4c18c383-1d6d-45a2-8cc7-2537fc38c7d2)
 
