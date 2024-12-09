@@ -72,6 +72,7 @@ The goal was to achieve an MAE within 5 days, this was achieved
 ![image](https://github.com/user-attachments/assets/4c18c383-1d6d-45a2-8cc7-2537fc38c7d2)
 
 Accurate Workload Predictions: Provided granular forecasts for workload in minutes, aiding in resource planning.
+
 Scheduled Maintenance: Generated actionable insights to determine when to perform maintenance before critical thresholds are reached.
 
 ### Maintenance Scheduling:
