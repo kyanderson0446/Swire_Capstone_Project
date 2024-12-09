@@ -7,11 +7,9 @@ Kyle Anderson
 
 ![image](https://github.com/user-attachments/assets/795701a7-b73b-4485-8d2c-cb51adb0ad32)
 
-
 ## Introduction: 
 
 Swire Coca-Cola is a major bottling partner of The Coca-Cola Company in the Western United States. Swire operates 6 production plants across 13 states which support distribution, marketing and production of Coca-Cola products. 
-
 
 ## Problem Statement
 As it stands, Swire is the source of Coca-Cola in the Western United States. Any changes made cause a ripple effect across the distribution network. One of those ripples is manufacturing maintenance downtime. This translates to Swire meeting 94% of demand. The lack of predictive maintenance and part inventory are leading causes to the downtime, which translates to $60M dollars lost in uncaptured revenue.  
@@ -28,24 +26,15 @@ Increasing planned maintenance helps reduce costly unplanned downtime, lowers cr
 ### Trials
 Deciding on using Prophet for predicting maintenance and the next maintenance date was challenging due to varying opinions on model options within the group. While Prophet’s ability to handle time series data and trends was beneficial, there were concerns about its integration of categorical variables and handling of sparse data, leading to uncertainty about its predictive accuracy. Although the R2 was low, Prophet proved interpretable and more suitable for long-term use with live data.
 
+### Takeaways
+* The importance of selecting the right model for real-world, imperfect data.
+* The challenges of balancing predictive accuracy with interpretability.
+* Understanding how to handle sparse, irregular data and integrating categorical variables.
+* The need to consider varying stakeholder needs when the end-users are unclear.
+* The value of iterative testing and refinement for improving model performance.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Problem Statement
+---
+---
 
 Maintenance scheduling challenges often result in unplanned downtime and inefficient resource use. The project's goals include:
 
