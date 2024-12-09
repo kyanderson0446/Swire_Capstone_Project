@@ -53,7 +53,7 @@ The dataset contains various features with significant missing data, as 80% of t
 ## Modeling
 
 ### Maintenane Date Prediction
-### Random Forest
+#### Random Forest
 This model looked at each equipment for each equipment and predicted its next maintenance date
 The goal was to achieve an MAE within 5 days, this was achieved
 
