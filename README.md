@@ -35,10 +35,15 @@ The goal was to achieve an MAE within 5 days, this was achieved
 
 
 ---
+
+![image](https://github.com/user-attachments/assets/4c18c383-1d6d-45a2-8cc7-2537fc38c7d2)
+
+
 ### Time Series Forecasting:
 
 Accurate Workload Predictions: Provided granular forecasts for workload in minutes, aiding in resource planning.
 Scheduled Maintenance: Generated actionable insights to determine when to perform maintenance before critical thresholds are reached.
+#### For optimization for weekly actionables
 Batching Logic: Introduced a 7-day rolling window for grouped maintenance, minimizing disruption and cost.
 
 ![image](https://github.com/user-attachments/assets/acbb6401-6bad-43f4-8919-afd3ee477cad)
@@ -63,12 +68,3 @@ Prioritize high-impact tasks based on workload metrics.
 
 
 
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/c3f868a1-af51-40b5-a966-27ce70808331)
