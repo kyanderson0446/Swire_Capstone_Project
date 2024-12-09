@@ -36,7 +36,7 @@ Deciding on using Prophet for predicting maintenance and the next maintenance da
 ---
 ---
 
-Maintenance scheduling challenges often result in unplanned downtime and inefficient resource use. The project's goals include:
+## Maintenance scheduling challenges often result in unplanned downtime and inefficient resource use. The project's goals include:
 
 * Create weekly actionables for Swire
 * Workload Prediction: Accurately forecast the time required for future work in minutes.
