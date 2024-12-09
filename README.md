@@ -31,10 +31,10 @@ The dataset contains various features with significant missing data, as 80% of t
 This model looked at each equipment for each equipment and predicted its next maintenance date
 The goal was to achieve an MAE within 5 days, this was achieved
 
-Location: MONZA
-MAE (Days +-): 3.75
-RMSE: 7.196754716522867
-R2: 0.18678322162821415
+#### Location: MONZA
+* MAE (Days +-): 3.75
+* RMSE: 7.196754716522867
+* R2: 0.18678322162821415
 
 
 ![image](https://github.com/user-attachments/assets/cd0f1556-4508-4ede-a248-4dfdd415e33c)
@@ -60,7 +60,7 @@ Batching Logic: Introduced a 7-day rolling window for grouped maintenance, minim
 
 ---
 
-###Future Enhancements
+### Future Enhancements
 Integration with Real-Time Data: Add live workload data for adaptive maintenance planning.
 Machine-Specific Models: Customize predictions based on individual equipment characteristics.
 Dashboards: Provide stakeholders with interactive dashboards for better decision-making.
