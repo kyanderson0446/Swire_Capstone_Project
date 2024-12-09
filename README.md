@@ -8,6 +8,42 @@ Kyle Anderson
 ![image](https://github.com/user-attachments/assets/795701a7-b73b-4485-8d2c-cb51adb0ad32)
 
 
+## Introduction: 
+
+Swire Coca-Cola is a major bottling partner of The Coca-Cola Company in the Western United States. Swire operates 6 production plants across 13 states which support distribution, marketing and production of Coca-Cola products. 
+
+
+## Problem Statement
+As it stands, Swire is the source of Coca-Cola in the Western United States. Any changes made cause a ripple effect across the distribution network. One of those ripples is manufacturing maintenance downtime. This translates to Swire meeting 94% of demand. The lack of predictive maintenance and part inventory are leading causes to the downtime, which translates to $60M dollars lost in uncaptured revenue.  
+
+### Groups Solution
+This project utilizes the Facebook Prophet model and Python to forecast maintenance time trends, enabling more informed decision-making. By applying advanced time series forecasting techniques, the goal is to minimize downtime, optimize resource allocation, and effectively prioritize critical tasks.
+
+### Contribution
+I focused heavily in the EDA and line-by-line details. This produced findings on Equipment groupings and maintenance distribution. This was a time-series focused project and identifying maintenance over time would show us where we needed to pull data. The main goal quickly turned away from breakdowns to reducing unplanned maintenance.
+
+### Business Context
+Increasing planned maintenance helps reduce costly unplanned downtime, lowers critical repair expenses, and improves equipment lifespan. By forecasting and scheduling maintenance, the company can better allocate resources, avoid disruptions, and increase efficiency, ultimately saving dollars lost on downtime.
+
+### Trials
+Deciding on using Prophet for predicting maintenance and the next maintenance date was challenging due to varying opinions on model options within the group. While Prophet’s ability to handle time series data and trends was beneficial, there were concerns about its integration of categorical variables and handling of sparse data, leading to uncertainty about its predictive accuracy. Although the R2 was low, Prophet proved interpretable and more suitable for long-term use with live data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Problem Statement
 
