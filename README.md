@@ -48,7 +48,8 @@ The goal was to achieve an MAE within 5 days, this was achieved
 
 Accurate Workload Predictions: Provided granular forecasts for workload in minutes, aiding in resource planning.
 Scheduled Maintenance: Generated actionable insights to determine when to perform maintenance before critical thresholds are reached.
-Maintenance Scheduling:
+
+### Maintenance Scheduling:
 Predict the optimal date for next maintenance tasks.
 Prioritize high-impact tasks based on workload metrics.
 
@@ -61,9 +62,9 @@ Batching Logic: Introduced a 7-day rolling window for grouped maintenance, minim
 ---
 
 ### Future Enhancements
-Integration with Real-Time Data: Add live workload data for adaptive maintenance planning.
-Machine-Specific Models: Customize predictions based on individual equipment characteristics.
-Dashboards: Provide stakeholders with interactive dashboards for better decision-making.
+* Integration with Real-Time Data: Add live workload data for adaptive maintenance planning.
+* Machine-Specific Models: Customize predictions based on individual equipment characteristics.
+* Dashboards: Provide stakeholders with interactive dashboards for better decision-making.
 
 
 
