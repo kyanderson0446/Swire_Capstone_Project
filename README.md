@@ -31,6 +31,12 @@ The dataset contains various features with significant missing data, as 80% of t
 This model looked at each equipment for each equipment and predicted its next maintenance date
 The goal was to achieve an MAE within 5 days, this was achieved
 
+Location: MONZA
+MAE (Days +-): 3.75
+RMSE: 7.196754716522867
+R2: 0.18678322162821415
+
+
 ![image](https://github.com/user-attachments/assets/cd0f1556-4508-4ede-a248-4dfdd415e33c)
 
 
@@ -42,6 +48,11 @@ The goal was to achieve an MAE within 5 days, this was achieved
 
 Accurate Workload Predictions: Provided granular forecasts for workload in minutes, aiding in resource planning.
 Scheduled Maintenance: Generated actionable insights to determine when to perform maintenance before critical thresholds are reached.
+Maintenance Scheduling:
+Predict the optimal date for next maintenance tasks.
+Prioritize high-impact tasks based on workload metrics.
+
+
 #### For optimization for weekly actionables
 Batching Logic: Introduced a 7-day rolling window for grouped maintenance, minimizing disruption and cost.
 
@@ -53,14 +64,6 @@ Batching Logic: Introduced a 7-day rolling window for grouped maintenance, minim
 Integration with Real-Time Data: Add live workload data for adaptive maintenance planning.
 Machine-Specific Models: Customize predictions based on individual equipment characteristics.
 Dashboards: Provide stakeholders with interactive dashboards for better decision-making.
-
-
-Predict work durations using Prophet’s yhat values.
-Simulate changes under planned maintenance conditions (yhat_planned).
-Maintenance Scheduling:
-
-Predict the optimal date for next maintenance tasks.
-Prioritize high-impact tasks based on workload metrics.
 
 
 
